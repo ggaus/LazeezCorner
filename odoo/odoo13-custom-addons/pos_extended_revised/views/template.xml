@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<template id="assets" inherit_id="pos_restaurant.assets">
+		<script src="/pos_restaurant/static/src/js/printbill.js" position='replace'>
+			<script type="text/javascript" src="/pos_extended/static/src/js/printbill.js"></script>
+		</script>
+		<script src="/pos_restaurant/static/src/js/splitbill.js" position='replace'>
+            <script type="text/javascript" src="/pos_extended/static/src/js/splitbill.js"></script>
+        </script>
+        <script src="/pos_restaurant/static/src/js/floors.js" position='replace'>
+            <script type="text/javascript" src="/pos_extended/static/src/js/floors.js"></script>
+        </script>
+	</template>
+</odoo>

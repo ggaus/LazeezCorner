@@ -1,0 +1,15 @@
+<odoo>
+
+    <record id="view_users_form_extended" model="ir.ui.view">
+        <field name="name">view.users.form.extended</field>
+        <field name="model">res.users</field>
+        <field name="inherit_id" ref="base.view_users_form"/>
+        <field name="arch" type="xml">
+            <field name="company_id" position='after'>
+                <field name="is_cook"/>
+                <field name="is_waiter"/>
+            </field>
+        </field>
+    </record>
+
+</odoo>
