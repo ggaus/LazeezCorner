@@ -5,12 +5,10 @@
         <field name="model">res.users</field>
         <field name="inherit_id" ref="base.view_users_form"/>
         <field name="arch" type="xml">
-            <div class="oe_title" position='after'>
-		<group>
-                    <field name="is_cook"/>
-                    <field name="is_waiter"/>
-                </group>
-            </div>
+            <field name="company_id" position='after'>
+                <field name="is_cook"/>
+                <field name="is_waiter"/>
+            </field>
         </field>
     </record>
 

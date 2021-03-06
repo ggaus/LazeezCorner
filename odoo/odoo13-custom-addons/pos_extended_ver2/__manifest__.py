@@ -13,7 +13,7 @@
                             'views/res_users.xml',
                             'views/template.xml',
                             ],
-"qweb"                 :  ['static/src/xml/template.xml'],
+#   "qweb"                 :  ['static/src/xml/pos_orders.xml'],
   "installable"          :  True,
   "auto_install"         :  False,
 }
